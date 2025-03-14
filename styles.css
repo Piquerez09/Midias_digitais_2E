@@ -8,18 +8,18 @@
 /* Configuração da página */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f5;  /* Cor suave de fundo, inspirada nos tons de céu e campo de Van Gogh */
-    color: #5f4b3a;  /* Cor terrosa e suave para o texto, que remete à pintura de Van Gogh */
+    background-color: #2c3e50;  /* Azul profundo inspirado no céu de Van Gogh */
+    color: #ecf0f1;  /* Branco suave para o texto, contrastando bem com o fundo azul */
     line-height: 1.6;
 }
 
 /* Cabeçalho */
 header {
-    background-color: #5584ac;  /* Azul suave inspirado no céu de Van Gogh */
+    background-color: #34495e;  /* Azul escuro mais suave, harmonizando com o fundo */
     color: white;
     padding: 40px 0;
     text-align: center;
-    border-bottom: 5px solid #d4af7f;  /* Tons dourados suaves, inspirados no campo de trigo */
+    border-bottom: 5px solid #16a085;  /* Azul esverdeado suave para criar um pequeno contraste */
 }
 
 header h1 {
@@ -30,7 +30,7 @@ header h1 {
 
 /* Navegação */
 nav {
-    background-color: #557a92;  /* Azul suave e calmo, inspirado no céu e nas paisagens de Van Gogh */
+    background-color: #2c3e50;  /* Azul profundo, igual ao fundo */
     color: white;
     padding: 15px 0;
     text-align: center;
@@ -53,7 +53,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f5a623;  /* Laranja suave inspirado em cores quentes do campo de trigo */
+    color: #16a085;  /* Azul esverdeado suave, criando contraste no hover */
 }
 
 /* Seções */
@@ -71,7 +71,7 @@ section {
 
 /* Galeria */
 #galeria {
-    background-color: #f1e6d9;  /* Cor neutra e suave, remetendo aos tons terrosos das obras de Van Gogh */
+    background-color: #34495e;  /* Azul escuro mais suave */
     padding: 20px 0;
 }
 
@@ -85,7 +85,7 @@ section {
 .work {
     margin: 20px;
     text-align: center;
-    background-color: #fff;
+    background-color: #16a085;  /* Azul esverdeado suave para destacar as imagens */
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -109,17 +109,17 @@ section {
     margin-top: 15px;
     font-size: 1.1em;
     font-family: 'Georgia', serif;
-    color: #5f4b3a;  /* Texto suave e terroso */
+    color: #ecf0f1;  /* Texto em branco suave */
 }
 
 /* Sobre */
 #sobre {
-    background-color: #d6e4f0;  /* Azul pálido suave que combina com as paisagens de Van Gogh */
+    background-color: #34495e;  /* Azul escuro mais suave */
 }
 
 /* Contato */
 #contato {
-    background-color: #e8d9b2;  /* Tons suaves de pêssego e amarelo claro */
+    background-color: #16a085;  /* Azul esverdeado suave */
 }
 
 form {
@@ -149,7 +149,7 @@ form input, form textarea {
 
 form button {
     padding: 12px;
-    background-color: #ff9f00;  /* Laranja suave, inspirado nos campos de trigo de Van Gogh */
+    background-color: #34495e;  /* Azul escuro suave, mesmo tom do cabeçalho */
     color: white;
     border: none;
     border-radius: 5px;
@@ -158,12 +158,12 @@ form button {
 }
 
 form button:hover {
-    background-color: #d87a00; /* Laranja mais profundo */
+    background-color: #16a085; /* Azul esverdeado suave no hover */
 }
 
 /* Rodapé */
 footer {
-    background-color: #557a92;  /* Azul suave, remetendo ao céu e paisagens de Van Gogh */
+    background-color: #34495e;  /* Azul escuro suave */
     color: white;
     text-align: center;
     padding: 15px 0;
