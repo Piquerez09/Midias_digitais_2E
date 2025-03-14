@@ -8,28 +8,31 @@
 /* Configuração da página */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
+    background-color: #f2e9d8;  /* Cor suave que lembra as cores da arte clássica */
     color: #333;
+    line-height: 1.6;
 }
 
 /* Cabeçalho */
 header {
-    background-color: #ff6f61;
-    color: white;
-    padding: 20px 0;
+    background-color: #a3aaf5;  /* Azul inspirado no céu de Van Gogh */
+    color: #fff;
+    padding: 40px 0;
     text-align: center;
+    border-bottom: 10px solid #2a2f7a;  /* Azul escuro para dar contraste */
 }
 
 header h1 {
-    font-size: 2.5em;
-    letter-spacing: 2px;
+    font-size: 3em;
+    font-family: 'Georgia', serif;
+    letter-spacing: 3px;
 }
 
 /* Navegação */
 nav {
-    background-color: #333;
+    background-color: #2a2f7a;  /* Azul escuro */
     color: white;
-    padding: 10px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -39,13 +42,18 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    font-family: 'Georgia', serif;
+}
+
+nav ul li a:hover {
+    color: #ff8c00; /* Amarelo vibrante de Van Gogh */
 }
 
 /* Seções */
@@ -54,14 +62,16 @@ section {
     text-align: center;
 }
 
-/* Seção de Boas-vindas */
+/* Boas-vindas */
 #welcome {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 20px;
 }
 
 /* Galeria */
 #galeria {
-    background-color: #fffbf0;
+    background-color: #f7d5a1;  /* Cor suave que lembra a pintura de Van Gogh */
     padding: 20px 0;
 }
 
@@ -78,33 +88,38 @@ section {
     background-color: #fff;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
+    max-width: 300px;
 }
 
 .work:hover {
     transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
+
 .work img {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .work p {
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 1.1em;
+    font-family: 'Georgia', serif;
+    color: #4b4b4b;
 }
 
 /* Sobre */
 #sobre {
-    background-color: #e8f7f3;
+    background-color: #f3d0b3;  /* Cor suave de fundo */
 }
 
 /* Contato */
 #contato {
-    background-color: #ffe5e5;
+    background-color: #ffe5d9;  /* Tons quentes que combinam com a arte de Van Gogh */
 }
 
 form {
@@ -115,38 +130,43 @@ form {
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 form label {
     margin: 10px 0 5px;
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 form input, form textarea {
-    padding: 10px;
+    padding: 12px;
     margin: 10px 0 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 1.1em;
 }
 
 form button {
     padding: 12px;
-    background-color: #ff6f61;
+    background-color: #ff8c00;  /* Amarelo vibrante de Van Gogh */
     color: white;
     border: none;
     border-radius: 5px;
+    font-size: 1.1em;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #e0554e;
+    background-color: #ff6a00; /* Amarelo mais forte */
 }
 
 /* Rodapé */
 footer {
-    background-color: #333;
+    background-color: #2a2f7a;  /* Azul escuro */
     color: white;
     text-align: center;
     padding: 15px 0;
+    font-size: 1.1em;
+    font-family: 'Georgia', serif;
 }
