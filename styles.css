@@ -8,18 +8,18 @@
 /* Configuração da página */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f2e9d8;  /* Cor suave que lembra as cores da arte clássica */
-    color: #333;
+    background-color: #f9f3e0;  /* Cor clara e suave como fundo, inspirado nas obras de Van Gogh */
+    color: #4a3f2b;  /* Cor quente, terrosa para o texto, similar a tons de madeira ou barro */
     line-height: 1.6;
 }
 
 /* Cabeçalho */
 header {
-    background-color: #a3aaf5;  /* Azul inspirado no céu de Van Gogh */
+    background-color: #ffcc00;  /* Amarelo vibrante de Van Gogh */
     color: #fff;
     padding: 40px 0;
     text-align: center;
-    border-bottom: 10px solid #2a2f7a;  /* Azul escuro para dar contraste */
+    border-bottom: 10px solid #ff8c00;  /* Amarelo mais escuro e contrastante */
 }
 
 header h1 {
@@ -30,7 +30,7 @@ header h1 {
 
 /* Navegação */
 nav {
-    background-color: #2a2f7a;  /* Azul escuro */
+    background-color: #2e3d99;  /* Azul forte inspirado nas obras "Noite Estrelada" */
     color: white;
     padding: 15px 0;
     text-align: center;
@@ -53,7 +53,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff8c00; /* Amarelo vibrante de Van Gogh */
+    color: #ff8c00;  /* Amarelo vibrante de Van Gogh */
 }
 
 /* Seções */
@@ -71,7 +71,7 @@ section {
 
 /* Galeria */
 #galeria {
-    background-color: #f7d5a1;  /* Cor suave que lembra a pintura de Van Gogh */
+    background-color: #ffeb99;  /* Amarelo claro inspirado nas flores de Van Gogh */
     padding: 20px 0;
 }
 
@@ -109,17 +109,17 @@ section {
     margin-top: 15px;
     font-size: 1.1em;
     font-family: 'Georgia', serif;
-    color: #4b4b4b;
+    color: #4a3f2b;  /* Texto no tom terroso */
 }
 
 /* Sobre */
 #sobre {
-    background-color: #f3d0b3;  /* Cor suave de fundo */
+    background-color: #aad1e6;  /* Azul suave e calmo, inspirado no céu de Van Gogh */
 }
 
 /* Contato */
 #contato {
-    background-color: #ffe5d9;  /* Tons quentes que combinam com a arte de Van Gogh */
+    background-color: #f7c8b2;  /* Tons de pêssego que combinam com a paleta vibrante de Van Gogh */
 }
 
 form {
@@ -149,7 +149,7 @@ form input, form textarea {
 
 form button {
     padding: 12px;
-    background-color: #ff8c00;  /* Amarelo vibrante de Van Gogh */
+    background-color: #ff8c00;  /* Amarelo forte de Van Gogh */
     color: white;
     border: none;
     border-radius: 5px;
@@ -158,12 +158,12 @@ form button {
 }
 
 form button:hover {
-    background-color: #ff6a00; /* Amarelo mais forte */
+    background-color: #d67d00; /* Amarelo mais profundo */
 }
 
 /* Rodapé */
 footer {
-    background-color: #2a2f7a;  /* Azul escuro */
+    background-color: #2e3d99;  /* Azul forte, remetendo à "Noite Estrelada" */
     color: white;
     text-align: center;
     padding: 15px 0;
